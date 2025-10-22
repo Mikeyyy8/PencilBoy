@@ -9,7 +9,7 @@ export const useProductStore = create((set) => ({
   fetchProducts: async () => {
     set({ loading: true });
     try {
-      const res = await fetch('http://localhost:5000/products');
+      const res = await fetch('https://pencilboy.onrender.com/products');
       const data = await res.json();
       set({ products: data, loading: false });
     } catch (err) {
@@ -22,7 +22,7 @@ export const useProductStore = create((set) => ({
     if (!query) return;
     set({ loading: true });
     try {
-      const res = await fetch(`http://localhost:5000/products/search?q=${query}`);
+      const res = await fetch(`https://pencilboy.onrender.com/products/search?q=${query}`);
       const data = await res.json();
       set({ products: data, loading: false });
     } catch (err) {
