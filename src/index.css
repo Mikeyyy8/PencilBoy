@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Kumbh+Sans&display=swap');
+@import 'tailwindcss';
+
+@theme{
+  --font-Audiowide: 'Audiowide', 'sans-serif';
+  --font-Kumbh: 'Kumbh Sans', 'Arial';
+}
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
