@@ -28,7 +28,7 @@ const Footer = () => {
     <div className="bg-neutral-950">
       <footer className=" text-white py-20 px-5 lg:px-15 flex items-center gap-12 justify-between flex-col md:flex-row">
         <div className="md:w-1/2">
-          <h2 className="text-7xl font-bold mb-4">The Pencil Boy</h2>
+          <h2 className="text-4xl lg:text-7xl font-bold mb-4">The Pencil Boy</h2>
           <p className="mb-6 text-neutral-400 text-justify">
             The pencil boy community is a movement, comprising of delusional
             designers, models, and creatives all looking to make a difference in

@@ -15,7 +15,7 @@ const StatementPieces = () => {
       className="h-fit my-5"
     >
       <div className="flex flex-col justify-center items-center px-4 text-center space-y-4">
-        <h1 className="text-4xl md:text-6xl font-bold tracking-tight">STATEMENT PIECES WITH A STORY BEHIND EVERY STITCH</h1>
+        <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight">STATEMENT PIECES WITH A STORY BEHIND EVERY STITCH</h1>
         <p className="text-sm uppercase text-neutral-500">Curated chaos. Designed by Panache.</p>
         work in progress my dudes
         <br />

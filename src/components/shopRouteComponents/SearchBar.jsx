@@ -31,8 +31,8 @@ const SearchBar = () => {
       />
       <div
         // onClick={search}
-        className="border-l border-l-neutral-300 dark:border-l-neutral-700 h-full place-items-center rounded-r-xl
-         place-content-center px-2 hover:bg-neutral-200 dark:hover:bg-neutral-800"
+        className="border-l border-l-neutral-300 dark:border-l-neutral-700 h-full flex items-center rounded-r-xl
+         px-2 hover:bg-neutral-200 dark:hover:bg-neutral-800"
       >
         <Search className="text-neutral-800 dark:text-neutral-200" />
       </div>

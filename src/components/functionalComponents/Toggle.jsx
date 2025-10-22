@@ -25,9 +25,9 @@ const Toggle = () => {
             }`}
         >
           {theme === "light" ? (
-            <SunIcon width={20} className="text-amber-500" />
+            <SunIcon width={20} className="text-neutral-900" />
           ) : (
-            <MoonIcon width={20} stroke="none" className="fill-neutral-500" />
+            <MoonIcon width={20} stroke="none" className="fill-neutral-900" />
           )}
         </div>
       </div>
