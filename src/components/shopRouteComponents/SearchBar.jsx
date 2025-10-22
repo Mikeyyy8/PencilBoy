@@ -5,7 +5,7 @@ import { Search } from "lucide-react";
 
 const SearchBar = () => {
   const [query, setQuery] = useState("");
-  const { products, loading, searchProducts } = useProductStore();
+  const { searchProducts } = useProductStore();
 
   useEffect(() => {
     if (!query) return;

@@ -64,7 +64,7 @@ const NavBar = () => {
       className="sticky top-0 z-20"
     >
       <div
-        className="flex items-center justify-between h-16 lg:h-20 font-bold text-neutral-400 bg-[white]/60 dark:bg-[black]/0 backdrop-blur-2xl
+        className="flex items-center justify-between h-16 lg:h-20 font-bold text-neutral-400 bg-[white]/60 dark:bg-black/0 backdrop-blur-2xl
        border-b dark:border-b-neutral-800 border-b-neutral-200 px-5 lg:px-15 text-sm tracking-tight"
       >
         <div className="flex items-center gap-2 cursor-pointer">
