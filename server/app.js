@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: true })); // optional, handles form-data
 
 // Routes
 app.use('/api/auth', authRoutes)
-app.use('/api/products', productRoutes)
+app.use('/products', productRoutes)
 
 
 // Root route
