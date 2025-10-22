@@ -16,4 +16,9 @@ const useThemeStore = create((set) => ({
     setTheme: (theme) => set({theme}), 
 }))
 
-export {useIndexStore, useActiveLinkStore, useThemeStore}
+const useSearchResultStore = create((set) => ({
+    searchResult: "",
+    setSearchResult: (searchResult) => set({searchResult}), 
+}))
+
+export {useIndexStore, useActiveLinkStore, useThemeStore, useSearchResultStore}
